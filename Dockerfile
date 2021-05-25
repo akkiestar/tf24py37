@@ -24,6 +24,8 @@ RUN apt-get -y install build-essential \
     libtbb2 \
     libtbb-dev \
     libeigen3-dev
+RUN apt-get install -y libgl1-mesa-glx libglib2.0-0 libsm6 libxrender1 libxext6
+
 
 RUN pip install --upgrade \
     scipy \
