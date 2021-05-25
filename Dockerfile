@@ -5,7 +5,7 @@ FROM tensorflow/tensorflow:2.4.1-gpu
 RUN apt-get -y install build-essential \
     pkg-config \
     libjpeg-dev \
-    libpng12-dev \
+    libpng-dev \
     libtiff5-dev \
     libopenexr-dev \
     libavcodec-dev \
