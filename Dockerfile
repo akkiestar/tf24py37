@@ -19,12 +19,8 @@ RUN apt-get -y install build-essential \
     libxvidcore-dev \
     libx264-dev \
     libswscale-dev \
-    libjasper-dev \
     libdc1394-22-dev \
     libv4l-dev \
-    libgstreamer1.0-dev \
-    libgstreamer-plugins-base0.10-dev \
-    libgstreamer-plugins-base1.0-dev \
     libtbb2 \
     libtbb-dev \
     libeigen3-dev
