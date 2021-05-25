@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow:2.4.1-gpu
 
-
+RUN apt-get update
 # for opencv
 RUN apt-get -y install build-essential \
     pkg-config \
