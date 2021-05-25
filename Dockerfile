@@ -36,7 +36,7 @@ RUN pip install --upgrade \
     pydot \
     joblib \
     matplotlib \
-    seaborn \
+    seaborn
 
 RUN apt-get -y install vim \
     tmux \
